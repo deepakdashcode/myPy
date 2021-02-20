@@ -12,5 +12,6 @@ def max(ls):
             maximum=ls[i]
     return maximum
 
-print(fre('',''))
-print(max([0.0,0,0000,1212]))
+    
+print(fre('l','lala'))
+print(max([1,2,3,5,21,1,1,2]))
