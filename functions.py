@@ -13,3 +13,5 @@ def max(ls):
     return maximum
 
     
+print(fre('l','lala'))
+print(max([1,2,3,5,21,1,1,2]))
