@@ -1,0 +1,10 @@
+birthday={
+    'Newton':1642,
+    'Darwin':1809,
+    'Turing':1912
+}
+print('Keys:',birthday.keys())
+print('Values:',birthday.values())
+print('Items:',birthday.items())
+print('Get:',birthday.get('Curie',1867))
+print(type(birthday.items()))
