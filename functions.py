@@ -12,4 +12,5 @@ def max(ls):
             maximum=ls[i]
     return maximum
 
-    
+print(fre('',''))
+print(max([0.0,0,0000,1212]))
