@@ -33,10 +33,3 @@ publicUser=publicUser+(input('Enter the execute permission for public 0 or 1\n')
 chmod=chmod+str(binToDec(publicUser))
 
 print(chmod)
-
-
-
-
-
-
-
