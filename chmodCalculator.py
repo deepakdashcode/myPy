@@ -9,12 +9,6 @@ def binToDec(num):
     pass
 
 
-
-
-
-		
-	
-
 user=''
 group=''
 publicUser=''
@@ -25,13 +19,13 @@ user=user+(input('Enter the read permission for user 0 or 1\n'))
 user=user+(input('Enter the write permission for user 0 or 1\n'))
 user=user+(input('Enter the execute permission for user 0 or 1\n'))
 chmod=chmod+str(binToDec(user))
-print(chmod)
+
 print('Enter Permissions for group')
 group=group+(input('Enter the read permission for group 0 or 1\n'))
 group=group+(input('Enter the write permission for group 0 or 1\n'))
 group=group+(input('Enter the execute permission for group 0 or 1\n'))
 chmod=chmod+str(binToDec(group))
-print(chmod)
+
 print('Enter Permissions for public')
 publicUser=publicUser+(input('Enter the read permission for public 0 or 1\n'))
 publicUser=publicUser+(input('Enter the write permission for public 0 or 1\n'))
